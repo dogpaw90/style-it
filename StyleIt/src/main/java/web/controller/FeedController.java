@@ -21,7 +21,7 @@ public class FeedController {
 	
 	
 	public void feedList(Model model) {
-	
+
 	}
 	
 	public void followFeedList(HttpSession session, Model model) {
