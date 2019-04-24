@@ -23,7 +23,7 @@ public class FeedController {
 	// feed 좋아요순 리스트 반환
 	@RequestMapping(value="/feed/list")
 	public void feedList(Model model) {
-	
+		
 	}
 	
 	// feed 팔로우한 사용자 리스트 반환
