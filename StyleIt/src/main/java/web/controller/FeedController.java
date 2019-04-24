@@ -44,12 +44,6 @@ public class FeedController {
 		
 	}
 	
-	// 컬렉션 좋아요 추가
-	@RequestMapping(value="/feed/clike")
-	public void addCollectionLike(HttpSession session, int c_no) {
-		
-	}
-	
 	// 제품 좋아요 취소
 	@RequestMapping(value="/feed/plikedelete")
 	public void deleteProductLike(int plike_no) {
@@ -59,12 +53,6 @@ public class FeedController {
 	// 스타일링 좋아요 취소
 	@RequestMapping(value="/feed/slikedelete")
 	public void deleteStylingLike(int slike_no) {
-		
-	}
-	
-	// 컬렉션 좋아요 취소
-	@RequestMapping(value="/feed/clikedelete")
-	public void deleteCollectionLike(int clike_no) {
 		
 	}
 	
